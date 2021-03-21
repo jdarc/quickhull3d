@@ -17,9 +17,9 @@ dependency injection, and delegate the work to methods.
 
 ## Building/Running
 
-To run tests, execute:
+To run tests and build the JAR execute:
 ```
-./gradlew clean test
+./gradlew clean build
 ```
 
 ## LICENSE

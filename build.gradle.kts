@@ -60,7 +60,6 @@ publishing {
                 }
                 scm {
                     url.set("https://github.com/jdarc/quickhull3d")
-
                 }
             }
         }
