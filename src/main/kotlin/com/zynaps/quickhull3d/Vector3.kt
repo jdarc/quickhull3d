@@ -59,9 +59,7 @@ internal data class Vector3(var x: Double = 0.0, var y: Double = 0.0, var z: Dou
 
     fun sub(v1: Vector3, v2: Vector3) = set(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z)
 
-    fun sub(x: Double, y: Double, z: Double) = set(this.x - x, this.y - y, this.z - z)
-
-    fun sub(v: Vector3) = sub(v.x, v.y, v.z)
+    fun sub(v: Vector3) = set(x - v.x, y - v.y, z - v.z)
 
     fun scale(s: Double) = set(x * s, y * s, z * s)
 
